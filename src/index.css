@@ -1,0 +1,149 @@
+
+
+
+  body {
+    box-sizing: border-box;
+    background: linear-gradient(to right, hsl(249, 99%, 64%) 0%, hsl(278, 94%, 30%) 35%, #ffffff 35%);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  color:black;
+  
+  }
+  
+
+
+
+
+.purpleCard {
+  width: 445px;
+  height: 240px;
+  background: linear-gradient(to right, hsl(270, 3%, 87%) 35%, hsl(279, 6%, 55%) 65%, hsl(279, 6%, 55%) 65%);
+  margin-top: 175px;
+  margin-left: 165px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardTop {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.cardName {
+  font-size: 14px;
+  width: 140px;
+  height: 20px;
+  
+  margin-top: 35px;
+  margin-left: 40px;
+  position: relative;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.cardNumber {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+
+  width: 376px;
+  height: 26px;
+  letter-spacing: 6px;
+  position: relative;
+z-index: 1;
+  margin-top: 140px;
+  margin-left: 40px;
+}
+
+
+
+
+.cardExpiry {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  margin-left: 365px;
+  margin-top:-20px ;
+  position: relative;
+  z-index: 2;
+}
+
+.cardBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  width: 445px;
+  height: 240px;
+  
+}
+
+.blackLine {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+
+.grayLine {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+
+.cardCVC {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+
+.form{
+
+  width:500px ;
+  height: 400px;
+  margin-left: 700px;
+  margin-top:-240px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.form input{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.cardname{
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+
+
+
+.form label{
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 10px;
+
+}
+
